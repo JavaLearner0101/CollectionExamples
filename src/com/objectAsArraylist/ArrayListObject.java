@@ -12,9 +12,11 @@ public class ArrayListObject {
 	public void add() {
 		System.out.println("Enter Name of customer :-");
 		student.setName(sc.nextLine());
+		
 		System.out.println("Enter Mobile number :-");
 		student.setMobileNumber(sc.nextLine());
 		studentList.add(new Student(student.getName(), student.getMobileNumber()));
+		
 		System.out.println("successfully added  details");
 		System.out.println("Name is :- " + student.getName() + " Mobile number is :- " + student.getMobileNumber());
 	}
